@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+header{
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(252, 197, 228, 0.4) 0%, rgb(253, 163, 75, 0.4) 15%, rgb(255, 120, 130, 0.4) 35%, rgb(200, 105, 158, 0.4) 52%, rgb(112, 70, 170, 0.4) 71%, rgb(12, 29, 184, 0.4) 87%, rgb(2, 15, 117, 0.4) 100%), url(./imagenes/pc.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+section{
+    display: flex;
+}
