@@ -8,45 +8,80 @@
     <link rel="icon" href="./imagenes/objetivo.svg">
 </head>
 <body>
-    <header>
-        <nav>
+
+<!--^CABECERA-->
+    <header class="contenedor_cabecera">
+        <nav class="contenedor_menu">
             <ul class="menu">
-                <li class="menu_item">
-                    <a href="#tecnologias">Tecnologias</a>
+                <li id="menu_uno" class="menu_item">
+                    <a id="enlace_uno" href="#contenedor_banner">Perfíl</a>
                 </li>
-                <li class="menu_item">
-                    <a href="#perfil_profesional">Perfil Profesional</a>
+                <li id="menu_dos" class="menu_item">
+                    <a href="#educacion">Educación</a>
                 </li>
-                <li class="menu_item">
+                <li id="menu_tres" class="menu_item">
                     <a href="#experiencia">Experiencia Laboral</a>
                 </li>
-                <li class="menu_item">
-                    <a href="#"></a>
+                <li id="menu_cuatro" class="menu_item">
+                    <a href="#">Proyectos</a>
                 </li>
-                <li class="menu_item">
-                    <a href="#"></a>
+                <li id="menu_cinco" class="menu_item">
+                    <a href="#contenedor_tecnologias">Tecnologías</a>
                 </li>
             </ul>
         </nav>
-        <h1>Desarrollador Front end</h1>
-        <img src="./" alt=" Foto Santiago">
+
+<!--^BANNER-->
+        <section id="contenedor_banner">
+            <div class="contenedor_fotografia">
+                <img class="foto_santiago" src="./imagenes/santiago.png" alt="Mi foto">
+            </div>
+            <div class="banner_quienSoy">
+                <h1 class="titulo_presentacion">Hola, Soy Santiago Marles 😎</h1>
+                <p class="parrafo_banner">Desarrollador front end con experiencia en creación de plataformas web dinámicas y manejo eficiente de bases de datos como SQL Server y MySQL. Me destaco por mi enfoque en soluciones innovadoras, trabajo en equipo y aprendizaje continuo.</p>
+            </div>
+        </section>
     </header>
 
-    <section>
-        <div id="tecnologias">
-            <h2>Tecnologias</h2>
-            <img src="" alt=""><link rel="stylesheet" href="">
-            <img src="" alt=""><link rel="stylesheet" href="">
-            <img src="" alt=""><link rel="stylesheet" href="">
-            <img src="" alt=""><link rel="stylesheet" href="">
-            <img src="" alt=""><link rel="stylesheet" href="">
-        </div>
-        <div id="perfil_profesional">
-            <h2>Perfil Profesional</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quisquam. Fugiat accusantium beatae tenetur eos pariatur atque, corrupti nesciunt. Placeat recusandae accusantium saepe nihil dolores autem quibusdam reiciendis optio quia.</p>
-        </div>
+<!--^TECNOLOGÍAS-->
+    <section id="contenedor_tecnologias">
+        <h2 class="titulo_tecnologia">Tecnologías</h2>
+            <div class= "contenedor_logos">
+                <div class="seccion_logo">
+                    <img src="./imagenes/html.png" alt="">
+                    <p>HTML</p>
+                </div>
+                <div class="seccion_logo">
+                    <img src="./imagenes/CSS.png" alt="">
+                    <p>CSS</p>
+                </div>
+                <div class="seccion_logo">
+                    <img src="./imagenes/javaScript.png"    alt="">
+                    <p>JavaScript</p>
+                </div>
+                <div class="seccion_logo">
+                    <img src="./imagenes/SQL_Server.png"    alt="">
+                    <p>SQL Server</p>
+                </div>
+                <div class="seccion_logo">
+                    <img src="./imagenes/MySQL.png"alt="">
+                    <p>MySQL</p>
+                </div>
+                <div class="seccion_logo">
+                    <img src="./imagenes/Java.png"alt="">
+                    <p>Java</p>
+                </div>
+            </div>
     </section>
 
+<!--^EDUCACIÓN-->
+    <main>
+        <div id="educacion">
+
+        </div>
+    </main>
+
+<!--^EXPERIENCIA LABORAL-->
     <main>
         <div id="experiencia">
             <h2>Experiencia Laboral</h2>
@@ -69,5 +104,12 @@
             </ul>
         </div>
     </main>
+
+<!--^PROYECTOS-->
+    <section>
+        <div></div>
+    </section>
+
+    <script src="./main.js"></script>
 </body>
 </html>
